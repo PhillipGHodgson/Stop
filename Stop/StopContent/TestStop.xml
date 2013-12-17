@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SceneData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <regions>
+    <RegionData>
+      <xPercent>0.0</xPercent>
+      <widthPercent>0.17</widthPercent>
+      <yPercent>0.6479166666666667</yPercent>
+      <heightPercent>0.19166666666666668</heightPercent>
+      <look>LEFT_ARROW</look>
+      <eventName>Go Left</eventName>
+    </RegionData>
+    <RegionData>
+      <xPercent>0.80</xPercent>
+      <widthPercent>0.2</widthPercent>
+      <yPercent>0.72916666666666663</yPercent>
+      <heightPercent>0.15</heightPercent>
+      <look>RIGHT_ARROW</look>
+      <eventName>Go Right</eventName>
+    </RegionData>
+    <RegionData>
+      <xPercent>0.4515625</xPercent>
+      <widthPercent>0.209375</widthPercent>
+      <yPercent>0.70625</yPercent>
+      <heightPercent>0.20833333333333334</heightPercent>
+      <look>ACTION</look>
+      <eventName>Blah</eventName>
+    </RegionData>
+  </regions>
+</SceneData>

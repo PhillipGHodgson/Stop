@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>action_pointer.png</Source>
+      <Name>action_pointer</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Phillip\Google Drive\programming\Visual Studio 2010\Projects\Stop\Stop\Stop\bin\x86\Debug\Content\action_pointer.xnb</Output>
+      <Time>2013-12-05T11:38:15.4275132-08:00</Time>
+    </Item>
+    <Item>
+      <Source>default_pointer.png</Source>
+      <Name>default_pointer</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Phillip\Google Drive\programming\Visual Studio 2010\Projects\Stop\Stop\Stop\bin\x86\Debug\Content\default_pointer.xnb</Output>
+      <Time>2013-12-05T11:38:53.3306811-08:00</Time>
+    </Item>
+    <Item>
+      <Source>left_pointer.png</Source>
+      <Name>left_pointer</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Phillip\Google Drive\programming\Visual Studio 2010\Projects\Stop\Stop\Stop\bin\x86\Debug\Content\left_pointer.xnb</Output>
+      <Time>2013-12-05T11:34:09.6254541-08:00</Time>
+    </Item>
+    <Item>
+      <Source>right_pointer.png</Source>
+      <Name>right_pointer</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Phillip\Google Drive\programming\Visual Studio 2010\Projects\Stop\Stop\Stop\bin\x86\Debug\Content\right_pointer.xnb</Output>
+      <Time>2013-12-05T11:34:30.6876588-08:00</Time>
+    </Item>
+    <Item>
+      <Source>SpriteFont1.spritefont</Source>
+      <Name>SpriteFont1</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Phillip\Google Drive\programming\Visual Studio 2010\Projects\Stop\Stop\Stop\bin\x86\Debug\Content\SpriteFont1.xnb</Output>
+      <Time>2013-12-11T00:51:29.7209993-08:00</Time>
+    </Item>
+    <Item>
+      <Source>videos\Blah.wmv</Source>
+      <Name>videos\Blah</Name>
+      <Importer>WmvImporter</Importer>
+      <Processor>VideoProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Phillip\Google Drive\programming\Visual Studio 2010\Projects\Stop\Stop\Stop\bin\x86\Debug\Content\videos\Blah.xnb</Output>
+      <Extra>C:\Users\Phillip\Google Drive\programming\Visual Studio 2010\Projects\Stop\Stop\Stop\bin\x86\Debug\Content\videos\Blah.wmv</Extra>
+      <Time>2013-12-10T14:33:43.7420992-08:00</Time>
+    </Item>
+    <Item>
+      <Source>videos\Enter_Right.wmv</Source>
+      <Name>videos\Enter_Right</Name>
+      <Importer>WmvImporter</Importer>
+      <Processor>VideoProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Phillip\Google Drive\programming\Visual Studio 2010\Projects\Stop\Stop\Stop\bin\x86\Debug\Content\videos\Enter_Right.xnb</Output>
+      <Extra>C:\Users\Phillip\Google Drive\programming\Visual Studio 2010\Projects\Stop\Stop\Stop\bin\x86\Debug\Content\videos\Enter_Right.wmv</Extra>
+      <Time>2013-12-10T14:38:54.0508478-08:00</Time>
+    </Item>
+    <Item>
+      <Source>videos\Go_Left.wmv</Source>
+      <Name>videos\Go_Left</Name>
+      <Importer>WmvImporter</Importer>
+      <Processor>VideoProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Phillip\Google Drive\programming\Visual Studio 2010\Projects\Stop\Stop\Stop\bin\x86\Debug\Content\videos\Go_Left.xnb</Output>
+      <Extra>C:\Users\Phillip\Google Drive\programming\Visual Studio 2010\Projects\Stop\Stop\Stop\bin\x86\Debug\Content\videos\Go_Left.wmv</Extra>
+      <Time>2013-12-10T14:38:54.0468476-08:00</Time>
+    </Item>
+    <Item>
+      <Source>videos\Go_Right.wmv</Source>
+      <Name>videos\Go_Right</Name>
+      <Importer>WmvImporter</Importer>
+      <Processor>VideoProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Phillip\Google Drive\programming\Visual Studio 2010\Projects\Stop\Stop\Stop\bin\x86\Debug\Content\videos\Go_Right.xnb</Output>
+      <Extra>C:\Users\Phillip\Google Drive\programming\Visual Studio 2010\Projects\Stop\Stop\Stop\bin\x86\Debug\Content\videos\Go_Right.wmv</Extra>
+      <Time>2013-12-10T14:33:43.7470995-08:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Phillip\Google Drive\programming\Visual Studio 2010\Projects\Stop\Stop\StopContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Phillip\Google Drive\programming\Visual Studio 2010\Projects\Stop\Stop\Stop\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Phillip\Google Drive\programming\Visual Studio 2010\Projects\Stop\Stop\StopContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Phillip\Google Drive\programming\Visual Studio 2010\Projects\Stop\Stop\Stop\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T13:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T13:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T13:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T13:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T13:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T13:41:18-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-01-15T00:28:21.9964111-08:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
