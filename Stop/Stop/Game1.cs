@@ -179,7 +179,10 @@ namespace Stop
 
         protected override void UnloadContent()
         {
-            currentScene.Dispose();
+            if(currentScene != null)
+                currentScene.Dispose();
+            if (nextScene != null)
+                nextScene.Dispose();
             base.UnloadContent();
         }
     }
