@@ -91,7 +91,7 @@ namespace Stop
         {
             if (currentRegion != null)
             {
-                videoManager.startVideo(currentRegion.EventName, time);
+                videoManager.startVideo(currentRegion.RegionName, time);
             }
         }
 

@@ -14,10 +14,29 @@ public enum MouseLook
     ACTION
 }
 
+public enum Condition
+{
+    INTRO, CLICK, CLICK_WITH_ITEM, CLIP_END
+}
+
+public enum Effect
+{
+    LOAD, PLAY, SPRITE, GET_ITEM
+}
+
 public struct SceneData
 {
     public RegionData[] regions;
     public string[] clips;
+    public Trigger[] triggers;
+}
+
+public struct Trigger
+{
+    public Condition condition;
+    public string condition_args;
+    public Effect effect;
+    public string effect_args;
 }
 
 public struct RegionData
@@ -28,5 +47,5 @@ public struct RegionData
 
     public MouseLook look;
 
-    public String eventName;
+    public String regionName;
 }

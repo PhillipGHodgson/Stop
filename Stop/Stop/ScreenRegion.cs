@@ -42,9 +42,9 @@ namespace Stop
             get{ return (Stop.MouseLook) data.look; }
         }
 
-        public string EventName
+        public string RegionName
         {
-            get { return data.eventName; }
+            get { return data.regionName; }
         }
 
 
