@@ -103,7 +103,7 @@ namespace Stop
             Font1 = Content.Load<SpriteFont>("SpriteFont1");
 
             pointer.loadContent(Content);
-            nextScene = Scene.getScene("testStop",screen, Content);
+            nextScene = Scene.getScene("testTestStop",screen, Content);
 
            
             lastMouseState = Mouse.GetState();

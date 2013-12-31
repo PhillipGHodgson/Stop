@@ -18,7 +18,7 @@ namespace Stop
         private ScreenRegion[] regions;
         private ScreenRegion currentRegion;
         private VideoManager videoManager;
-        private bool loaded = false;
+        //private bool loaded = false;
         private Rectangle screenRect;
 
         public static Scene getScene(string sceneName,Rectangle rect, ContentManager content)
@@ -59,7 +59,7 @@ namespace Stop
 
         public void startPlay(GameTime time)
         {
-            videoManager.startVideo(0, time);
+            fireEvent(ConditionType.INTRO, new string[0], time);
         }
 
         public void Update(Pointer pointer, GameTime time)
@@ -87,11 +87,50 @@ namespace Stop
             videoManager.DrawFrame(spritebatch, screenRect);
         }
 
+        private void fireEvent(ConditionType type, string[] args, GameTime gameTime)
+        {
+            foreach(TriggerData t in data.triggers)
+            {
+                if (isMatch(t, type, args))
+                {
+                    activateTrigger(t, gameTime);
+                }
+            }
+        }
+
+        private void activateTrigger(TriggerData t, GameTime gameTime)
+        {
+            foreach (Effect e in t.effects)
+            {
+                switch (e.type)
+                {
+                    case EffectType.PLAY_CLIP:
+                        videoManager.startVideo(e.effect_args[0], gameTime);
+                        break;
+                }
+            }
+        }
+
+        private bool isMatch(TriggerData t, ConditionType type, string[] args)
+        {
+            if (t.conditions[0].type == type && args.Length >= t.conditions[0].condition_args.Length)
+            {
+                for (int i = 0; i < t.conditions[0].condition_args.Length; i++)
+                {
+                    if (t.conditions[0].condition_args[i] != args[i])
+                        return false;
+                }
+            }
+            else
+                return false;
+            return true;
+        }
+
         public void clickEvent(GameTime time)
         {
             if (currentRegion != null)
             {
-                videoManager.startVideo(currentRegion.RegionName, time);
+                fireEvent(ConditionType.CLICK, new string[] { currentRegion.RegionName }, time);
             }
         }
 
