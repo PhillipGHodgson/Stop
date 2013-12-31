@@ -119,6 +119,8 @@ namespace Stop
                     loadVideo();
                 }
 
+                Thread.Sleep(1);
+
                 if (_videoState != _videoPlayer.State)
                 {
                     switch (_videoState)
